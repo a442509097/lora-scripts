@@ -212,7 +212,7 @@ class NetworkTrainer:
             logger.error(
                 "No data found. Please verify arguments (train_data_dir must be the parent of folders with images) / 画像がありません。引数指定を確認してください（train_data_dirには画像があるフォルダではなく、画像があるフォルダの親フォルダを指定する必要があります）"
             )
-            # return
+            return
 
         if cache_latents:
             assert (
