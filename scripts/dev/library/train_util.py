@@ -24,6 +24,9 @@ import subprocess
 from io import BytesIO
 import toml
 
+import encrypt_image
+
+
 # from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from tqdm import tqdm
