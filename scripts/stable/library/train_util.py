@@ -11,6 +11,10 @@ import pathlib
 import re
 import shutil
 import time
+
+import encrypt_image
+
+
 from typing import (
     Dict,
     List,
