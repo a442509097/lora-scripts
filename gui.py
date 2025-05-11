@@ -4,6 +4,7 @@ import os
 import platform
 import subprocess
 import sys
+import encrypt_image
 
 from mikazuki.launch_utils import (base_dir_path, catch_exception, git_tag,
                                    prepare_environment, check_port_avaliable, find_avaliable_ports)
