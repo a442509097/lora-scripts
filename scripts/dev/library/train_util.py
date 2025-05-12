@@ -1,4 +1,5 @@
 # common functions for training
+import library.encrypt_image
 
 import argparse
 import ast
@@ -23,8 +24,6 @@ import hashlib
 import subprocess
 from io import BytesIO
 import toml
-
-import encrypt_image
 
 
 # from concurrent.futures import ThreadPoolExecutor, as_completed
